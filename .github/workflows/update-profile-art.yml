@@ -1,0 +1,44 @@
+name: Refresh profile art
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/profile_art.py
+      - scripts/test_profile_art.py
+      - .github/workflows/update-profile-art.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Verify calendar parsing
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Refresh public contribution calendar
+        run: python scripts/profile_art.py --refresh
+      - name: Commit updated art
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/contributions.json assets/contrib-heatmap.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh contribution art [skip ci]'
+            git push
+          fi
