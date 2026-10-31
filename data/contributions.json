@@ -5,7 +5,7 @@
   "period_start": "2025-10-26",
   "period_end": "2026-10-31",
   "stats": {
-    "total": 240,
+    "total": 243,
     "active_days": 30,
     "longest_streak": 5,
     "current_streak": 1
@@ -1863,8 +1863,8 @@
     },
     {
       "date": "2026-10-31",
-      "level": 1,
-      "count": 1
+      "level": 2,
+      "count": 4
     }
   ]
 }
