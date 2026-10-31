@@ -1,11 +1,14 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="960" alt="Oussama Oulkaid — Software and AI engineering student at EMSI Casablanca, Morocco. Open to internships." />
+<img src="./assets/header.svg" width="960" alt="Oussama Oulkaid — Software and AI engineering student at EMSI Casablanca. Seeking a PFE internship from February 2027." />
 
 <br />
 
 **I turn data and models into useful applications.**<br />
 LLMs & retrieval · Machine learning · Full-stack engineering
+
+**Seeking a PFE internship from February 2027 · Casablanca**<br />
+Available for remote opportunities now.
 
 [LinkedIn](https://www.linkedin.com/in/oussama-oulkaid-820301209/) &nbsp; / &nbsp; [Email](mailto:oussama.is.loading@gmail.com) &nbsp; / &nbsp; [Explore my repositories](https://github.com/deleted04user?tab=repositories)
 
@@ -14,7 +17,7 @@ LLMs & retrieval · Machine learning · Full-stack engineering
 <table>
 <tr>
 <td width="40%" valign="top"><img src="./assets/oussama-ascii.svg" width="380" alt="Animated monochrome ASCII portrait of Oussama, made from his GitHub avatar." /></td>
-<td width="60%" valign="top"><img src="./assets/info-card.svg" width="560" alt="Software and AI student at EMSI Casablanca. Focus: LLMs, RAG and machine learning. Stack: Python, Qwen, FAISS, XGBoost, FastAPI, React and SQL. Open to internships." /></td>
+<td width="60%" valign="top"><img src="./assets/info-card.svg" width="560" alt="Software and AI student at EMSI Casablanca. Python, PyTorch, scikit-learn, FastAPI, React and SQL. Seeking a PFE internship from February 2027 in Casablanca." /></td>
 </tr>
 </table>
 
@@ -26,53 +29,65 @@ LLMs & retrieval · Machine learning · Full-stack engineering
 <tr>
 <td width="50%" valign="top">
 
-**01 / [MoroccoLaw-LLM](https://github.com/deleted04user/MoroccoLaw-LLM)**
+**01 / [Heart Disease Lab](https://github.com/deleted04user/heart-disease-lab)**
 
-An educational RAG prototype for Moroccan legal documents: multilingual retrieval and answers grounded in source passages.
+[<img src="https://raw.githubusercontent.com/deleted04user/heart-disease-lab/main/docs/demo_poster.png" width="440" alt="Heart Disease Lab dashboard showing real UCI data, provenance and educational-use limits." />](https://github.com/deleted04user/heart-disease-lab/blob/main/docs/demo.mp4)
 
-`Python` `Qwen` `FAISS` `Transformers`
+Real UCI data → validated ML pipelines → a five-page Streamlit dashboard. Includes separate-site evaluation, a model card, and reproducible experiments. Educational use; not clinically validated.
+
+`Python` `scikit-learn` `Streamlit` `Docker`
+
+[26-second walkthrough](https://github.com/deleted04user/heart-disease-lab/blob/main/docs/demo.mp4) · [Model card](https://github.com/deleted04user/heart-disease-lab/blob/main/reports/model_card.md) · [Engineering checks](https://github.com/deleted04user/heart-disease-lab/actions)
 
 </td>
 <td width="50%" valign="top">
 
 **02 / [Electricity Demand Forecasting](https://github.com/deleted04user/electricity-demand-forecasting)**
 
-A forecasting portfolio project using synthetic demo data, leakage-safe evaluation, an API, and a React analytics dashboard.
+[<img src="https://raw.githubusercontent.com/deleted04user/electricity-demand-forecasting/main/figures/capture_vue_ensemble.png" width="440" alt="Electricity demand forecasting React dashboard using synthetic demonstration data." />](https://github.com/deleted04user/electricity-demand-forecasting)
+
+Past-demand features → XGBoost forecasts → FastAPI → a React dashboard. Chronological evaluation, naive baselines, and a Docker Compose demo. Uses synthetic demonstration data.
 
 `XGBoost` `FastAPI` `React` `Python`
+
+[Run locally](https://github.com/deleted04user/electricity-demand-forecasting#run-with-docker) · [Evaluation](https://github.com/deleted04user/electricity-demand-forecasting#bundled-model-evaluation) · [Engineering checks](https://github.com/deleted04user/electricity-demand-forecasting/actions)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**03 / [University RAG Assistant](https://github.com/deleted04user/university-rag-assistant)**
+**03 / [MoroccoLaw-LLM](https://github.com/deleted04user/MoroccoLaw-LLM)**
 
-A university portal with role-based access, academic management, and a fully local TF-IDF retrieval assistant.
+A legal PDF → structured articles → multilingual embeddings → FAISS retrieval → source-grounded Qwen answers. Public learning prototype, separate from my internship platform; not a validated legal service.
 
-`FastAPI` `JWT` `Python` `TF-IDF`
+`Python` `Qwen` `FAISS` `Transformers`
+
+[Notebook](https://github.com/deleted04user/MoroccoLaw-LLM/blob/main/notebooks/Lesson_01_Setup.ipynb) · [Pipeline & scope](https://github.com/deleted04user/MoroccoLaw-LLM#pipeline)
 
 </td>
 <td width="50%" valign="top">
 
-**04 / [LUMA](https://github.com/deleted04user/LUMA)**
+**04 / [Deep Learning Architectures](https://github.com/deleted04user/deep-learning-architectures)**
 
-An accessible image discovery interface with search filters, themes, and clear loading and error states.
+Reproducible experiments across tabular classification, computer vision, text classification, and GRU Seq2Seq generation. Runnable scripts, metrics, training plots, notebooks, and an academic report.
 
-`JavaScript` `HTML` `CSS` `Unsplash API`
+`PyTorch` `MLP` `CNN` `RNN / LSTM / GRU`
+
+[Notebooks](https://github.com/deleted04user/deep-learning-architectures/tree/main/notebooks) · [Report](https://github.com/deleted04user/deep-learning-architectures/tree/main/report)
 
 </td>
 </tr>
 </table>
 
-Also exploring **[deep learning architectures](https://github.com/deleted04user/deep-learning-architectures)**, **[systems in C](https://github.com/deleted04user/BMS)**, and **[embedded security](https://github.com/deleted04user/arduino_smartHome)**.
+More to explore: **[University Portal & Local Retrieval Assistant](https://github.com/deleted04user/university-rag-assistant)** — FastAPI, JWT, SQLAlchemy, and local TF-IDF search; **[LUMA](https://github.com/deleted04user/LUMA)** — an accessible JavaScript image-discovery interface; **[systems in C](https://github.com/deleted04user/BMS)**; **[Arduino](https://github.com/deleted04user/arduino_smartHome)**.
 
 ### `~/stack $ cat toolkit.txt`
 
 | Area | Toolkit |
 | :--- | :--- |
 | AI & data | Python · Pandas · NumPy · scikit-learn · XGBoost · PyTorch · Transformers · FAISS |
-| Applications | FastAPI · React · JavaScript · REST APIs · HTML · CSS |
+| Applications | FastAPI · React · Streamlit · JavaScript · REST APIs · HTML · CSS |
 | Databases | PostgreSQL · MySQL · SQL Server · SQLite |
 | Engineering | Git · GitHub Actions · Docker · Linux · UML |
 | Systems & embedded | C · C++ · Arduino |
@@ -87,7 +102,7 @@ Also exploring **[deep learning architectures](https://github.com/deleted04user/
 
 I'm improving multilingual RAG, time-series forecasting, and end-to-end AI applications. I care about traceable sources, reproducible evaluation, clean architecture, and interfaces people can use.
 
-**Open to AI/ML, data, software engineering, and end-of-study internship opportunities.**
+**Seeking AI/ML, data, or software engineering PFE internships in Casablanca from February 2027. Available for remote opportunities now.**
 
 <div align="center">
 

@@ -122,8 +122,8 @@ def header():
     content += text(30, 120, "OUSSAMA OULKAID", 30, TEXT, 'font-weight="700" letter-spacing="1"')
     content += text(30, 153, "Software & AI Engineering  /  EMSI Casablanca  /  Morocco", 14, MUTED)
     content += '<rect x="749" y="82" width="180" height="36" rx="18" fill="#142b26" stroke="#295e47"/>'
-    content += '<circle cx="765" cy="100" r="4" fill="#7ce5aa"/>' + text(777, 105, "OPEN TO INTERNSHIPS", 11, GREEN)
-    atomic_write(ROOT / "assets/header.svg", svg(960, 184, "Oussama Oulkaid", "Software and AI engineering student at EMSI Casablanca, Morocco. Open to internships.", content))
+    content += '<circle cx="765" cy="100" r="4" fill="#7ce5aa"/>' + text(777, 105, "PFE / FEB 2027", 11, GREEN)
+    atomic_write(ROOT / "assets/header.svg", svg(960, 184, "Oussama Oulkaid", "Software and AI engineering student at EMSI Casablanca. Seeking a PFE internship from February 2027 in Casablanca; available for remote opportunities now.", content))
 
 def info():
     content = chrome("~/profile  $ neofetch", 560)
@@ -131,15 +131,15 @@ def info():
     content += text(28, 109, "----------------------------", 14, MUTED)
     rows = [("Role", "Software & AI engineering student"), ("School", "EMSI Casablanca"),
             ("Focus", "LLMs / RAG / Machine Learning"), ("Build", "Models -> APIs -> interfaces"),
-            ("AI", "Python / Qwen / FAISS / XGBoost"), ("Web", "FastAPI / React / SQL"),
-            ("Tools", "Git / Docker / Linux"), ("Seek", "AI, data & software internships")]
+            ("AI", "Python / PyTorch / scikit-learn"), ("Web", "FastAPI / React / Streamlit / SQL"),
+            ("Tools", "Git / Docker / GitHub Actions"), ("Seek", "PFE / Feb 2027 / Casablanca")]
     for i, (key, value) in enumerate(rows):
         y = 147 + i * 29
         content += f'<g class="reveal" style="animation-delay:{.2+i*.1:.2f}s">' + text(28, y, key, 13, CYAN) + text(113, y, value, 13) + '</g>'
     content += f'<path d="M28 378H532" stroke="{BORDER}"/>'
     content += text(28, 404, "Source-grounded AI. Reproducible experiments.", 12, GREEN)
     content += text(28, 426, "Useful interfaces. Thoughtful engineering.", 12, MUTED)
-    atomic_write(ROOT / "assets/info-card.svg", svg(560, 448, "Oussama's engineering profile", "Software and AI student focused on LLMs, RAG, machine learning, FastAPI and React. Open to internships.", content))
+    atomic_write(ROOT / "assets/info-card.svg", svg(560, 448, "Oussama's engineering profile", "Software and AI student focused on LLMs, RAG, machine learning, FastAPI and React. Seeking a PFE internship in Casablanca from February 2027.", content))
 
 def portrait(source):
     from PIL import Image, ImageDraw, ImageOps, ImageEnhance
