@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="960" alt="Oussama Oulkaid — Software and AI engineering student at EMSI Casablanca. Seeking a PFE internship from February 2027." />
+<img src="./assets/header.svg?v=pfe-2027" width="960" alt="Oussama Oulkaid — Software and AI engineering student at EMSI Casablanca. Seeking a PFE internship from February 2027." />
 
 <br />
 
@@ -17,7 +17,7 @@ Available for remote opportunities now.
 <table>
 <tr>
 <td width="40%" valign="top"><img src="./assets/oussama-ascii.svg" width="380" alt="Animated monochrome ASCII portrait of Oussama, made from his GitHub avatar." /></td>
-<td width="60%" valign="top"><img src="./assets/info-card.svg" width="560" alt="Software and AI student at EMSI Casablanca. Python, PyTorch, scikit-learn, FastAPI, React and SQL. Seeking a PFE internship from February 2027 in Casablanca." /></td>
+<td width="60%" valign="top"><img src="./assets/info-card.svg?v=pfe-2027" width="560" alt="Software and AI student at EMSI Casablanca. Python, PyTorch, scikit-learn, FastAPI, React and SQL. Seeking a PFE internship from February 2027 in Casablanca." /></td>
 </tr>
 </table>
 
@@ -126,3 +126,4 @@ To regenerate the calendar: `python scripts/profile_art.py --refresh`. To update
 Inspired by [Avi Vashishta's animated profile guide](https://www.avivashishta.com/blog/build-animated-github-profile-readme). Profile design and generators are written for this account.
 
 </details>
+
