@@ -4,6 +4,8 @@
 
 <br />
 
+## Software & AI Engineering
+
 **I turn data and models into useful applications.**<br />
 LLMs & retrieval · Machine learning · Full-stack engineering
 
@@ -14,16 +16,15 @@ Available for remote opportunities now.
 
 <br />
 
-<table>
-<tr>
-<td width="40%" valign="top"><img src="./assets/oussama-ascii.svg" width="380" alt="Animated monochrome ASCII portrait of Oussama, made from his GitHub avatar." /></td>
-<td width="60%" valign="top"><img src="https://raw.githubusercontent.com/deleted04user/deleted04user/455939f84106d14b3edd02f71f750aa9cfa7bc06/assets/info-card.svg" width="560" alt="Software and AI student at EMSI Casablanca. Python, PyTorch, scikit-learn, FastAPI, React and SQL. Seeking a PFE internship from February 2027 in Casablanca." /></td>
-</tr>
-</table>
+
 
 </div>
 
-### `~/projects $ ls --featured`
+## Selected projects
+
+Start with **Heart Disease Lab** for applied ML, **Electricity Demand Forecasting** for a model-to-dashboard application, or **MoroccoLaw-LLM** for retrieval and language models.
+
+[View all public projects and demos](PORTFOLIO.md)
 
 <table>
 <tr>
@@ -33,7 +34,7 @@ Available for remote opportunities now.
 
 [<img src="https://raw.githubusercontent.com/deleted04user/heart-disease-lab/main/docs/demo_poster.png" width="440" alt="Heart Disease Lab dashboard showing real UCI data, provenance and educational-use limits." />](https://github.com/deleted04user/heart-disease-lab/blob/main/docs/demo.mp4)
 
-Real UCI data → validated ML pipelines → a five-page Streamlit dashboard. Includes separate-site evaluation, a model card, and reproducible experiments. Educational use; not clinically validated.
+Real UCI data → evaluated ML pipelines → a five-page Streamlit dashboard. Includes separate-site evaluation, a model card, and reproducible experiments. Educational use; not clinically validated.
 
 `Python` `scikit-learn` `Streamlit` `Docker`
 
@@ -82,7 +83,7 @@ Reproducible experiments across tabular classification, computer vision, text cl
 
 More to explore: **[University Portal & Local Retrieval Assistant](https://github.com/deleted04user/university-rag-assistant)** — FastAPI, JWT, SQLAlchemy, and local TF-IDF search; **[LUMA](https://github.com/deleted04user/LUMA)** — an accessible JavaScript image-discovery interface; **[systems in C](https://github.com/deleted04user/BMS)**; **[Arduino](https://github.com/deleted04user/arduino_smartHome)**.
 
-### `~/stack $ cat toolkit.txt`
+## Technical skills
 
 | Area | Toolkit |
 | :--- | :--- |
@@ -92,13 +93,13 @@ More to explore: **[University Portal & Local Retrieval Assistant](https://githu
 | Engineering | Git · GitHub Actions · Docker · Linux · UML |
 | Systems & embedded | C · C++ · Arduino |
 
-### `~/activity $ contributions --last-year`
+## Open-source activity
 
 <div align="center">
 <img src="./assets/contrib-heatmap.svg" width="960" alt="Oussama's real GitHub contribution calendar, refreshed daily. Exact dates and counts are available in data/contributions.json." />
 </div>
 
-### `~/next $ cat focus.md`
+## Current focus & opportunities
 
 I'm improving multilingual RAG, time-series forecasting, and end-to-end AI applications. I care about traceable sources, reproducible evaluation, clean architecture, and interfaces people can use.
 
@@ -115,7 +116,14 @@ I'm improving multilingual RAG, time-series forecasting, and end-to-end AI appli
 </div>
 
 <details>
-<summary>About this profile</summary>
+<summary>Profile artwork and maintenance</summary>
+
+<table>
+<tr>
+<td width="40%" valign="top"><img src="./assets/oussama-ascii.svg" width="380" alt="Animated monochrome ASCII portrait of Oussama, made from his GitHub avatar." /></td>
+<td width="60%" valign="top"><img src="https://raw.githubusercontent.com/deleted04user/deleted04user/455939f84106d14b3edd02f71f750aa9cfa7bc06/assets/info-card.svg" width="560" alt="Software and AI student at EMSI Casablanca. Python, PyTorch, scikit-learn, FastAPI, React and SQL. Seeking a PFE internship from February 2027 in Casablanca." /></td>
+</tr>
+</table>
 
 The portrait and info card are self-contained SVGs with one-time reveal animations. The calendar uses real public GitHub contribution data and refreshes daily through [GitHub Actions](https://github.com/deleted04user/deleted04user/actions/workflows/update-profile-art.yml). Reduced-motion preferences disable CSS reveals; every image also has a readable final frame and descriptive alternative text.
 
