@@ -9,7 +9,7 @@
 **I turn data and models into useful applications.**<br />
 LLMs & retrieval · Machine learning · Full-stack engineering
 
-**Seeking a PFE internship from February 2027 · Casablanca**<br />
+<br />
 Available for remote opportunities now.
 
 [LinkedIn](https://www.linkedin.com/in/oussama-oulkaid-820301209/) &nbsp; / &nbsp; [Email](mailto:oussama.is.loading@gmail.com) &nbsp; / &nbsp; [Explore my repositories](https://github.com/deleted04user?tab=repositories)
